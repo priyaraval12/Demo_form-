@@ -4,7 +4,7 @@ import Profile from "./Components/Profile";
 const App= ()=> {
   return (
     <div className="container mt-5">
-      <h2>React Add Form Data to Table Component Example</h2>
+      <h2>Demo Form</h2>
       <Profile />
     </div>
   );

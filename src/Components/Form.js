@@ -1,3 +1,5 @@
+import React from 'react';
+import '../style/form.css';
 const Form=({ onValChange, formObject, onFormSubmit }) => {
     return (
       <div className="row mb-4">
@@ -31,13 +33,16 @@ const Form=({ onValChange, formObject, onFormSubmit }) => {
             name="profile"
           />
         </div>
-        <div className="d-grid">
+        <div>
           <input
             type="submit"
             onClick={onFormSubmit}
-            className="btn btn-success"
+            className="btn "
           />
         </div>
+ 
+        
+    
       </div>
     );
   }

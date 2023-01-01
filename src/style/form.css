@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(132deg, #ec5218, #1665c1);
+    background-size: 200% 200%;
+    animation: BackgroundGradient 3s ease infinite;
+  display: flex;
+  justify-content :center;
+  align-items :center;
+  width :100vw;
+  height: 100vh 
+}
+
+
+  @keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  
+
+
+  .btn, .btn2 {
+     width :150px;
+     height :50px;
+     font-size :18px;
+     justify-content: center;
+     text-align :center;
+     line-height :50px;
+     color: rgba(12, 12, 12, 0.9);
+     border-radius: 40px;
+     background :linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+     background-size :600%;
+     animation : anime 16s linear infinite }
+  .btn2 {
+     position : absolute;
+     /* margin-top :-50px; */
+     z-index :-1;
+     filter: blur(30px);
+     opacity :0.8
+  }
+ @keyframes anime {
+   0% {background-position :0% 50% 50% ;}
+   50% {background-position: 100% 50%;}
+   100% {background-position: 0% 50%;}
+  
+}
